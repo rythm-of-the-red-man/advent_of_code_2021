@@ -1,0 +1,26 @@
+{
+  "name": "advent_of_code_2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "module": "CommonJS",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rythm-of-the-red-man/advent_of_code_2021.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rythm-of-the-red-man/advent_of_code_2021/issues"
+  },
+  "homepage": "https://github.com/rythm-of-the-red-man/advent_of_code_2021#readme"
+}

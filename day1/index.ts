@@ -1,5 +1,6 @@
-const fs = require("fs");
+import fs from "fs";
 const input = fs.readFileSync("day1/input", "utf8").split("\n");
+// Part 1
 let higherCount = 0;
 for (let i = 1; i < input.length ; i++) {
   if (input[i] > input[i - 1]) {
@@ -9,7 +10,7 @@ for (let i = 1; i < input.length ; i++) {
   console.log(i, input[i], input[i-1],input[i] > input[i - 1]);
 }
 console.log(higherCount);
-
+// Part 2
 let windowSize = 3;
 let windowHigherCount = 0;
 let reference = 0;
