@@ -1,5 +1,4 @@
 import fs from "fs";
-import { ExitStatus, SignatureKind } from "typescript";
 
 const input = fs
   .readFileSync("day4/number_input.txt", "utf8")
